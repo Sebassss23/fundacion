@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{ 
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+html{ 
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: #eef9f5;
+    background: url(../img/bg-header.png) ;
+    background-size: cover;
+    padding-top: 50px;
+
+
+}
+header nav{ 
+
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul a{ 
+    color: #02D9FE;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 10px;
+    transition: .4s;
+    
+
+}
+nav ul a:hover{
+    border-bottom: 1px solid #fff;
+
+}
+#hero{ 
+    width: 90%;
+    margin: 0 auto;
+
+    text-align: left;
+    padding-top: 220px;
+}
+#hero h2{
+    color: #02D9FE;
+    font-size: 60px;
+    font-weight: 500; 
+}
+#hero h1{ 
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+#hero button{ 
+    padding: 10px 30px;
+    background: #02D9FE;
+    color: #666;
+    border-radius: 10px;
+    font-size: 28px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    margin-top: 100px;
+    cursor: pointer;
+
+}
+main{ 
+    width: 100%;
+    position: relative;
+    background:#ffffff;
+    color: #000000;
+
+}
+#planes{ 
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+    background: #ffffff;
+}
+#planes h2{ 
+    font-size: 50px;
+    margin-bottom: 40px;
+
+}
+#planes p{ 
+    font-size: 22px;
+
+}
+#planes .fila{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+
+}
+#planes article{
+    position: relative;
+}
+#planes article h3{
+
+    color: #000000;
+    top: 110px;
+    text-align: center;
+    width: 100%;
+}
+#destinos{ 
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 120px 0 40px;
+    background:#eef9f5;
+    background-size: cover;
+    
+
+}
+#destinos h2{
+    color: #000000;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+#destinos .fila{ 
+    display: flex;
+    justify-content: center;
+     
+}
+#destinos article{ 
+    margin: 30px 150px;
+
+
+}
+#destinos h3{ 
+    font-size: 30px;
+    color: #000000;
+    font-weight: 400;
+}
+#contacto{
+    width: 100%;
+    background: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+
+}
+
+#contacto h2{ 
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+#contacto p{
+    font-size: 22px;
+}
+#contacto form{ 
+    width: 800px;
+    margin: 40px auto;
+
+}
+form .filas{ 
+    display: flex;
+    justify-content: space-between;
+}
+#contacto input{
+    width: 42%;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+#contacto select{ 
+    width: 47.4%;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+#contacto button{
+    background-color: #ff6f61;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    padding: 60px 0;
+    background: #eef9f5;
+    color: #000000;
+    text-align: center;
+}
+#voluntariado {
+    background: #ffffff ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px; 
+    height: 430px;
+    margin: 0 auto; 
+    gap: 10px; 
+    
+}
+#voluntariado h2{
+    color: #000000;
+}
+
+#voluntariado img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    border-radius: 8px;
+}
+
+#voluntariado img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+#historia-exito {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #eef9f5;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #historia-exito .contenido {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  #historia-exito h2 {
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  #historia-exito p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  #historia-exito button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #historia-exito button:hover {
+    background-color: #ff8a80;
+  }
+  
+  #historia-exito .imagen img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  /* Sección "Conócenos" */
+#conocenos {
+    background-color: #eef9f5;
+    padding: 80px 40px; /* Aumenta el padding para más espacio */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  #conocenos h2 {
+    font-size: 40px; /* Tamaño de fuente más grande */
+    color: #333;
+    margin-bottom: 30px; /* Más espacio debajo del título */
+  }
+  
+  .contenido-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px; /* Aumenta el espacio entre los elementos */
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .contenido-nosotros .mision,
+  .contenido-nosotros .vision {
+    max-width: 600px; /* Aumenta el ancho máximo */
+    background-color: #fff;
+    padding: 30px; /* Más espacio interno */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contenido-nosotros h3 {
+    font-size: 28px; /* Tamaño de fuente más grande */
+    color: #444;
+    margin-bottom: 15px; /* Más espacio debajo del subtítulo */
+  }
+  
+  .contenido-nosotros p {
+    font-size: 18px; /* Tamaño de fuente más grande */
+    color: #666;
+    line-height: 1.8; /* Más espaciado entre líneas */
+  }
+  
